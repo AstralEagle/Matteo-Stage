@@ -1,218 +1,276 @@
-body{
-    font-family:'Roboto Condensed', sans-serif;
-    text-align: center;
-    margin: 0px;
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 0px;
 }
-a{
-    color: black;
-    text-decoration:  none;
+a {
+  color: black;
+  text-decoration: none;
 }
-h1{
-    font-size: 60px;
-    letter-spacing: 5px;
-    color: #1a1b1f;
-    font-weight: normal;
+h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: #1a1b1f;
+  font-weight: normal;
 }
-h2{
-    font-size: 60px;
-    letter-spacing: 5px;
-    font-weight: normal;
+h2 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  margin: 25px 0px 25px 0px;
 }
-p{
-    font-size: 16px;
-    line-height: 28px;
+h3{
+  font-size: 25px;
 }
-.btn_contact{
-    background-color: #e6bbaa;
-    color: white;
-    padding: 16px 25px 16px 25px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 5px 0px 5px 0px;   
+p {
+  font-size: 16px;
+  line-height: 28px;
 }
-.btn_menu{
-    border: 1px solid black;
-    background-color: #e6bbaa;
-    color: white;
-    padding: 9px 15px 9px 15px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    width: fit-content;
-    text-align: center;
-    margin: 5px 0px 5px 0px;
+.btn_contact {
+  background-color: #e6bbaa;
+  color: white;
+  padding: 16px 25px 16px 25px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 5px 0px 5px 0px;
+}
+.btn_menu {
+  border: 1px solid black;
+  background-color: #e6bbaa;
+  color: white;
+  padding: 9px 15px 9px 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: fit-content;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+}
+header {
+  background-color: #3a3536;
+  margin-bottom: 20px;
+}
+header .list_menu {
+  display: flex;
+  justify-content: flex-end;
+}
+header .list_menu a {
+  margin: 16px 20px 16px 20px;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+header .list_menu .activeLink {
+  color: #0082f3;
+}
 
+section {
+  margin: 40px 15% 40px 15%;
+  padding: 40px 0px 40px 0px;
 }
-header{
-    background-color: #3a3536;
-    margin-bottom: 20px;
-}
-header .list_menu{
+
+.main_div{
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
-    justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-header .list_menu a{
-    margin: 16px 20px 16px 20px;
-    color: white;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-
-}
-header .list_menu .activeLink{
-    color: #0082f3;
-}
-
-section{
-    margin: 40px 70px 40px 70px;
-}
-
-#contact{
-text-align: right;
-}
-
-#presentation{
+.row{
     display: flex;
-    justify-content: center;
-    padding: 0px 40px 0px 40px;
-}
-#presentation .main_div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#presentation img{
-    border: 2px solid #e6bbaa;
+    justify-content: space-evenly;
 }
 
-#entreprise{
-    display: flex;
-    background-color: #1a1b1f;
-    color: white;
+#contact {
+  margin: 40px 70px 40px 70px;
+  text-align: right;
+}
+
+#presentation {
+  display: flex;
+  justify-content: center;
+  padding: 0px 40px 0px 40px;
+}
+#presentation .main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#presentation img {
+  border: 2px solid #e6bbaa;
+}
+
+#entreprise {
+    padding: 0px;
+  display: flex;
+  background-color: #1a1b1f;
+  color: white;
 }
 #entreprise img {
-    max-width: 60%;
+  max-width: 60%;
 }
-#entreprise .multiButton{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#reseaux{
-    margin: 40px 0px 40px 0px;
-}
-.carrou_view{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-.carrouselle{
-    background-color: #e6bbaa;
-    display: flex;
-    width: 400%;
-    position: relative;
-    animation: carrouselle 50s infinite;
-}
-.carrouselle a{
-    width: 25%;
+#entreprise .multiButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.affiche{
-    margin: 40px 20px 40px 20px;
-    padding: 140px 0px 140px 0px;
-    background-color: #e6bbaa;
-    color: white;
+#reseaux {
+  margin: 40px 0px 40px 0px;
 }
-.affiche h1{
-    color: white;
-    text-transform: uppercase;
-    font-size: 64px;
+.carrou_view {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.carrouselle {
+  background-color: #e6bbaa;
+  display: flex;
+  width: 400%;
+  position: relative;
+  animation: carrouselle 50s infinite;
+}
+.carrouselle a {
+  width: 25%;
 }
 
-#parcour{
-    text-align: left;
-    display: flex;
+.affiche {
+  margin: 40px 20px 40px 20px;
+  padding: 140px 0px 140px 0px;
+  background-color: #e6bbaa;
+  color: white;
+}
+.affiche h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 64px;
 }
 
-#biscor_history{
-    display: flex;
-    background-color: #3a3536;
-    color: white;
+#parcour {
+  text-align: left;
+  display: flex;
+}
+#parcour img{
+  max-height: 800px;
+}
+
+#biscor_history {
+  display: flex;
+  background-color: #3a3536;
+  color: white;
 }
 #biscor_history img {
-    object-fit: contain;
-    padding: 0px 15px 0px 20px;
-    max-height: 450px;
-    align-self: center;
+  object-fit: contain;
+  padding: 0px 15px 0px 20px;
+  max-height: 450px;
+  align-self: center;
 }
-#biscor_history p{
-    text-align: left;
+#biscor_history p {
+  text-align: left;
 }
-#valeurs{
-    display: flex;
+#valeurs {
+    margin: 40px 100px 40px 100px;
 }
-#valeurs img{
-    max-width: 100%;
+#valeurs img {
+    margin: 15px 0px 15px 0px;
+}
+.bande_noir{
+  width: 100%;
+  background-color: #3a3536;
+  color: white;
 }
 
-#screen_insta{
-    padding: 20px;
-    background-color: #3a3536;
-    color: white;
+.bande_rose{
+    width: 100%;
+    background-color: #e6bbaa;
 }
-#screen_insta div{
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px 0px 30px 0px;
+#produits p{
+  margin-bottom: 40px;
 }
-#screen_insta img{
-    width: 30%;
-    border-radius: 15px;
+
+
+.row .row_case {
+    width: 25%;
+}
+.row_case img{
+    width: 100%;
+    border-radius: 5px;
+}
+.row_case h3{
+    margin: 5px 0px 5px 0px;
+    font-size: 25px;
+}
+.row_case p{
+    margin: 0px;
+}
+
+
+#avertissemnt{
+  background-color: #3a3536;
+  color: white;
+}
+
+#missions .row .row_case img{
+  width: 30%;
+}
+
+#screen_insta {
+  padding: 20px;
+  background-color: #3a3536;
+  color: white;
+}
+#screen_insta div {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0px 30px 0px;
+}
+#screen_insta img {
+  width: 30%;
+  border-radius: 15px;
 }
 #screen_insta img:hover {
-    position: absolute;
-    width: 100%;
-    max-height: 100%;
-    top: 0px;
-    background-color: #3a3536;
-    object-fit: contain ;
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+  top: 0px;
+  background-color: #3a3536;
+  object-fit: contain;
 }
 
-
-footer{
-    width: 100%;
-    background-color: #3a3536;
-    color: white;
+footer {
+  width: 100%;
+  background-color: #3a3536;
+  color: white;
 }
-footer #divFooter{
-    display: flex;
-    justify-content: space-evenly;
+footer #divFooter {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-@keyframes carrouselle{
- 0%{
-    left: 0%
- }
- 5%{
+@keyframes carrouselle {
+  0% {
     left: 0%;
- }
- 35%{
+  }
+  5% {
+    left: 0%;
+  }
+  35% {
     left: -100%;
- }
- 40%{
+  }
+  40% {
     left: -100%;
- }
- 70%{
+  }
+  70% {
     left: -200%;
- }
- 75%{
+  }
+  75% {
     left: -200%;
- }
- 100%{
+  }
+  100% {
     left: -300%;
- }
+  }
 }
