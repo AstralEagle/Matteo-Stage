@@ -17,7 +17,7 @@ h2 {
   font-size: 60px;
   letter-spacing: 5px;
   font-weight: normal;
-  margin: 25px 0px 25px 0px;
+  margin: 25px 0px 40px 0px;
 }
 h3{
   font-size: 25px;
@@ -120,6 +120,8 @@ section {
 
 #reseaux {
   margin: 40px 0px 40px 0px;
+  padding-bottom: 0px;
+  margin-bottom:0px;
 }
 .carrou_view {
   width: 100%;
@@ -127,6 +129,7 @@ section {
   position: relative;
 }
 .carrouselle {
+  padding: 20px 0px 20px 0px;
   background-color: #e6bbaa;
   display: flex;
   width: 400%;
@@ -134,6 +137,10 @@ section {
   animation: carrouselle 50s infinite;
 }
 .carrouselle a {
+  width: 25%;
+}
+.carrouselle img{
+  max-width: 100px;
   width: 25%;
 }
 
@@ -155,6 +162,7 @@ section {
 }
 #parcour img{
   max-height: 800px;
+  border: 10px solid #CD9681;
 }
 
 #biscor_history {
@@ -171,26 +179,33 @@ section {
 #biscor_history p {
   text-align: left;
 }
-#valeurs {
-    margin: 40px 100px 40px 100px;
-}
-#valeurs img {
-    margin: 15px 0px 15px 0px;
-}
+
 .bande_noir{
   width: 100%;
   background-color: #3a3536;
   color: white;
 }
+#produits p{
+  margin-bottom: 40px;
+}
+#produits img {
+  max-width: 750px;
+  width: 100%;
+}
+
+#valeurs {
+    margin: 40px 100px 40px 100px;
+}
+#valeurs img {
+  width: 100%;
+    margin: 15px 0px 15px 0px;
+}
+
 
 .bande_rose{
     width: 100%;
     background-color: #e6bbaa;
 }
-#produits p{
-  margin-bottom: 40px;
-}
-
 
 .row .row_case {
     width: 25%;
@@ -243,6 +258,13 @@ section {
 
 #fierte{
   display: flex;
+}
+#fierte img{
+  max-width: 600px;
+  width: 100%;
+}
+#fierte .main_div{
+  flex: 1;
 }
 #fierte .main_div p{
   text-align: left;
