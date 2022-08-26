@@ -241,6 +241,13 @@ section {
   object-fit: contain;
 }
 
+#fierte{
+  display: flex;
+}
+#fierte .main_div p{
+  text-align: left;
+}
+
 footer {
   width: 100%;
   background-color: #3a3536;
