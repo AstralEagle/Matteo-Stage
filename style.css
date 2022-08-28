@@ -297,6 +297,7 @@ section {
 
 video {
     width: 100%;
+
 }
 
 #flyer .row{
@@ -326,6 +327,10 @@ video {
 footer {
     width: 100%;
     background-color: #3a3536;
+    color: white;
+}
+
+footer a {
     color: white;
 }
 
