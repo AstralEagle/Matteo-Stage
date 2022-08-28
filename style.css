@@ -299,6 +299,10 @@ video {
     width: 100%;
 }
 
+#flyer .row{
+    align-items: center;
+}
+
 #fierte {
     display: flex;
     align-items: center;
@@ -401,7 +405,22 @@ footer #divFooter {
     #missions .row_case{
         width: 90%;
     }
+    #videos .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    #videos .row_case{
+        width: 90%;
+        margin-top: 40px;
+    }
 
+    #flyer .row{
+        flex-direction: column;
+    }
+    #flyer .row_case{
+        width: 90%;
+        margin-top: 40px;
+    }
     #fierte {
         flex-direction: column-reverse;
     }
