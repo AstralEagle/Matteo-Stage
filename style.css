@@ -117,6 +117,7 @@ section {
 
 #presentation img {
     border: 2px solid #e6bbaa;
+    max-width: 600px;
 }
 
 #entreprise {
