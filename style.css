@@ -256,6 +256,10 @@ section {
   object-fit: contain;
 }
 
+video{
+  width: 100%;
+}
+
 #fierte{
   display: flex;
 }
